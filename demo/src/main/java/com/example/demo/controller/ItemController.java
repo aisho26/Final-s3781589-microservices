@@ -18,12 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ItemController {
     private ItemDao itemdao = new ItemDao();
 
-    @RequestMapping("/")
-    public String hello() {
-        Item item = itemdao.getItem(02);
-        return item.getDesc();
-    }
-
+ 
     @GetMapping("/item/{Id}")
 
     public Item getItem(@PathVariable int Id){
