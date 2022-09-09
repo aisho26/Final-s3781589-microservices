@@ -34,26 +34,32 @@ public class ItemDao {
         return itemList; //catch as exception in the controller class
     }
 
-    public void updateItem(Item item){
+    public int updateItem(Item item){
+        int flag = -1;
         for (Item i: itemList ){
             if(i.getId()==item.getId()){
                 i.setTitle(item.getTitle());
                 i.setDesc(item.getDesc());
                 i.setImagePath(item.getImagePath());
                 i.setPrice(item.getPrice());
-
+                flag =1;
             }
         }
+        return flag;
     }
 
-    public void deleteItem(Item item){
+    public int deleteItem(Item item){
         Iterator<Item> itr = itemList.iterator();
+        int flag = -1;
         while(itr.hasNext()){
             Item x = (Item)itr.next();
             if(x.getId() == item.getId()){
                 itr.remove();
+                flag =1;
             }
+
         }
+        return flag;
     }
 
 
