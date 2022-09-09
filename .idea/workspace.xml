@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5454b4-c478-4cd2-ba06-dc41fc38e256" name="Changes" comment="">
-
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DAO/ItemDAO.java" afterDir="false" />
-      
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
