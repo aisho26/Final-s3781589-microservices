@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5454b4-c478-4cd2-ba06-dc41fc38e256" name="Changes" comment="">
+
       <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DAO/ItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662706381920</updated>
       <workItem from="1662706385410" duration="44000" />
+      <workItem from="1662706674331" duration="156000" />
     </task>
     <servers />
   </component>
